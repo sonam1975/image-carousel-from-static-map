@@ -4,7 +4,7 @@
   "description": "Image carousel from static map ",
   "main": "index.js",
   "scripts": {
-    "database": "mysql -u root -p < schema.sql",
+    "seed": "mysql -u root -p < schema.sql",
     "react-dev": "webpack -d --watch",
     "start": "nodemon server/index.js"
   },
