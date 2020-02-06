@@ -80,7 +80,6 @@ const Baths = styled.div`
 const Area = styled.div`
   padding-left: 4px;
 `;
-const Svg = styled.svg``;
 
 const ListImages = ({ img }) => {
   const {
@@ -109,14 +108,14 @@ const ListImages = ({ img }) => {
 
       <Price>
         <p>
-          <Svg
+          {/* <svg
             viewBox="0 0 32 32"
             class="icon icon-home"
             viewBox="0 0 32 32"
             aria-hidden="true"
           >
             <path d="M27 18.039L16 9.501 5 18.039V14.56l11-8.54 11 8.538v3.481zm-2.75-.31v8.251h-5.5v-5.5h-5.5v5.5h-5.5v-8.25L16 11.543l8.25 6.186z" />
-          </Svg>
+          </svg> */}
           {"$" + price}
         </p>
       </Price>
