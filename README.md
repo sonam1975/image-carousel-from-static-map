@@ -1,3 +1,5 @@
 # image-carousel-from-static-map
-# house-carousel-from-static-map-proxy
-# house-carousel-from-static-map-proxy
+
+1. npm install  --> to install all node dependencies
+2.npm start  ---> to start the application
+
